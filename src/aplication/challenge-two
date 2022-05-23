@@ -50,5 +50,5 @@ public class Solution {
         System.out.println(i + I)
         System.out.println(d + D);
        
-        System.out.println(s.concat(S));
+        System.out.println(s.concat(S)); // forma de concatenar string, apenas estring
         scan.close();
