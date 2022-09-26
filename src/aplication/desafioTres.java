@@ -24,8 +24,7 @@ Sample Input
 
 42
 3.1415
-Welcome
- to HackerRank's Java tutorials!*/
+Welcome to HackerRank's Java tutorials!*/
 
 
 
@@ -38,15 +37,15 @@ public class Solution {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
         double d = scan.nextDouble();
-        String s1 = scan.next();
-        String s2 = scan.nextLine();
+        scan.nextLine();
+        String s = scan.nextLine();
         scan.close();
-        
+
         // Write your code here.
 
-        System.out.println("String: " + s1 + s2);
+        System.out.println("String: " + s);
         System.out.println("Double: " + d);
         System.out.println("Int: " + i);
-        
     }
 }
+
