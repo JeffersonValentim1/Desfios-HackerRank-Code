@@ -24,7 +24,8 @@ Sample Input
 
 42
 3.1415
-Welcome to HackerRank's Java tutorials!*/
+Welcome
+ to HackerRank's Java tutorials!*/
 
 
 
